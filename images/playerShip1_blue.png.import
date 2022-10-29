@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/meteorBrown_big1.png-2462b09bbee73f2d9f917a015a49a733.stex"
+path="res://.import/playerShip1_blue.png-482af9f350821ad9741a56a16a5f1331.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://meteorBrown_big1.png"
-dest_files=[ "res://.import/meteorBrown_big1.png-2462b09bbee73f2d9f917a015a49a733.stex" ]
+source_file="res://images/playerShip1_blue.png"
+dest_files=[ "res://.import/playerShip1_blue.png-482af9f350821ad9741a56a16a5f1331.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

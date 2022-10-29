@@ -145,7 +145,7 @@ public class Player : KinematicBody2D
 
     public void _on_RespawnInvincibility_timeout()
     {
-        _sprite.Visible = true;
+        _animationPlayer.Stop();
         _collisionShape.Disabled = false;
     }
 

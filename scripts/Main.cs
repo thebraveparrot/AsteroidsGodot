@@ -156,6 +156,9 @@ public class Main : Node2D
         {
             // This was the last life...get rid of the player.
             _player.QueueFree();
+            
+            // Quit spawning asteroids because there's no player object to target.
+            _asteroidSpawnTimer.Stop();
         }
         
         _overlay.SetLives(--_playerLives);

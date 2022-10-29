@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsteroidsGodot", "AsteroidsGodot.csproj", "{1E1FE3DB-643D-403B-B305-5773C0897E0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E1FE3DB-643D-403B-B305-5773C0897E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E1FE3DB-643D-403B-B305-5773C0897E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E1FE3DB-643D-403B-B305-5773C0897E0A}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{1E1FE3DB-643D-403B-B305-5773C0897E0A}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{1E1FE3DB-643D-403B-B305-5773C0897E0A}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{1E1FE3DB-643D-403B-B305-5773C0897E0A}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal

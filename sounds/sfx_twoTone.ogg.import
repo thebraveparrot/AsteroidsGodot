@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sfx_twoTone.ogg-bcc74e9bbdda4d193005c41bcee41741.oggstr"
+
+[deps]
+
+source_file="res://sounds/sfx_twoTone.ogg"
+dest_files=[ "res://.import/sfx_twoTone.ogg-bcc74e9bbdda4d193005c41bcee41741.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

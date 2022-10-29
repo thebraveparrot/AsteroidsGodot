@@ -1,0 +1,36 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://kenvector_future_thin.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Overlay.cs" type="Script" id=2]
+[ext_resource path="res://playerLife2_blue.png" type="Texture" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 1 )
+
+[sub_resource type="Theme" id=2]
+/fonts/Future = SubResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 1 )
+
+[node name="Overlay" type="Control"]
+margin_right = 277.0
+margin_bottom = 40.0
+theme = SubResource( 2 )
+script = ExtResource( 2 )
+
+[node name="Score" type="Label" parent="."]
+margin_right = 322.0
+margin_bottom = 61.0
+custom_constants/shadow_offset_x = 0
+custom_fonts/font = SubResource( 3 )
+text = "Score: 0"
+uppercase = true
+
+[node name="Lives" type="TextureRect" parent="."]
+margin_left = 907.0
+margin_top = 4.0
+margin_right = 1018.0
+margin_bottom = 30.0
+texture = ExtResource( 3 )
+stretch_mode = 2
